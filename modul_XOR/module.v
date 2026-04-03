@@ -1,3 +1,12 @@
+module xor_2_bit(
+    input a,
+    input b,
+    output res
+)
+
+
+
+endmodule
 module xor_4_bit (
     input a,
     input b,
