@@ -1,3 +1,7 @@
+//------------------------------------------------------------
+// memory controller 
+//------------------------------------------------------------
+
 module memory_controler (
     input wire       clk,
     input wire       we,
@@ -17,7 +21,10 @@ module memory_controler (
     end
 endmodule
 
-// Testbench
+//------------------------------------------------------------
+// Testbench 
+//------------------------------------------------------------
+
 module tb_memory_controler 
     reg clk, we, oe;
     reg  [7:0] addr, write_data;
